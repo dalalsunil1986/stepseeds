@@ -1,0 +1,91 @@
+@font-face {
+  font-family: "Saonara";
+  src: url(../fonts/saonara.otf);
+}
+@font-face {
+  font-family: "Hyper";
+  src: url(../fonts/hyper.ttf);
+}
+* {
+  font-family: "Saonara";
+}
+
+h3 {
+  font-weight: bolder;
+}
+
+.navbar {
+  padding: 2em 0;
+}
+
+a {
+  color: #000;
+}
+a:hover {
+  text-decoration: none;
+}
+
+body {
+  background-color: #f8f9fa;
+}
+
+.bg-light {
+  background-color: #ffffff !important;
+}
+
+.main-wrapper {
+  width: 100%;
+  float: left;
+}
+
+.main-header {
+  width: 100%;
+  background-color: white;
+  float: left;
+}
+
+#main-search-wrapper {
+  padding: 220px 0;
+}
+#main-search-wrapper input {
+  height: 70px;
+  border-radius: 0;
+  background-color: #f2f8ff;
+}
+
+.search-items {
+  width: 100%;
+  padding: 100px 0;
+  float: left;
+}
+
+.card {
+  border-radius: 0;
+}
+
+.input-group-lg > .custom-select, .input-group-lg > .form-control, .input-group-lg > .input-group-append > .btn, .input-group-lg > .input-group-append > .input-group-text, .input-group-lg > .input-group-prepend > .btn, .input-group-lg > .input-group-prepend > .input-group-text {
+  border-radius: 0;
+}
+
+.content-body {
+  width: 100%;
+  float: left;
+}
+
+.steps-body {
+  width: 100%;
+  background-color: #ffffff;
+  float: left;
+  margin: 45px 0;
+  height: 1200px;
+}
+
+section {
+  width: 100%;
+  background-color: #ffffff;
+  float: left;
+  margin: 45px 0;
+  height: 600px;
+}
+
+/*# sourceMappingURL=style.css.map */
